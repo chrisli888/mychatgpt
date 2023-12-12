@@ -16,7 +16,7 @@ promt="""
 """
 
 
-# chatbot = Chatbot(api_key="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",engine="gpt-3.5-turbo",proxy="http://127.0.0.1:15236")
+# chatbot = Chatbot(api_key="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",engine="gpt-3.5-turbo",proxy="http://127.0.0.1:15236")
 # for data in chatbot.ask_stream(promt):
 #     print(data, end="", flush=True)
 
