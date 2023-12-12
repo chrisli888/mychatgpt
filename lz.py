@@ -16,11 +16,13 @@ promt="""
 """
 
 
-chatbot = Chatbot(api_key="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",engine="gpt-3.5-turbo",proxy="http://127.0.0.1:15236")
+# chatbot = Chatbot(api_key="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",engine="gpt-3.5-turbo",proxy="http://127.0.0.1:15236")
+# for data in chatbot.ask_stream(promt):
+#     print(data, end="", flush=True)
+
+chatbot = Chatbot(api_key="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",engine="gpt-3.5-turbo")
 for data in chatbot.ask_stream(promt):
     print(data, end="", flush=True)
-
-
 #
 # chatbot = Chatbot(api_key="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")
 # for data in chatbot.ask_stream("Hello world"):
